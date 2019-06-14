@@ -1,0 +1,103 @@
+
+body {
+    background-color: #000000;
+/* background-size: 13px 13px, 29px 29px, 37px 37px, 53px 53px;
+background-image: -webkit-linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+                  -webkit-linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+                  -webkit-linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+                  -webkit-linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+background-image: -moz-linear-gradient(0, rgba(255,255,255,.07) 50%, transparent 50%),
+                  -moz-linear-gradient(0, rgba(255,255,255,.13) 50%, transparent 50%),
+                  -moz-linear-gradient(0, transparent 50%, rgba(255,255,255,.17) 50%),
+                  -moz-linear-gradient(0, transparent 50%, rgba(255,255,255,.19) 50%);
+background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+                  linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+                  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+                  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+-pie-background: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%) 0 0 / 13px,
+                 linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%) 0 0 / 29px,
+                 linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%) 0 0 / 37px,
+                 linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%) 0 0 / 53px,
+                 #000000;
+behavior: url(/pie/PIE.htc); */
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#orange {
+    height: 100px;
+    width: 35%;
+    background-color: rgb(247, 85, 174);
+    font-size: 30px;
+    color: white;
+  }
+
+  #tan {
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(184, 63, 184);
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+
+  #green {
+       height: 100px;
+    width: 10px;
+    background-color:	rgb(206, 108, 145);
+    font-size: 18px;
+    color:white;
+  }
+
+  #aqua {
+    
+    height: 100px;
+    width: 10px;
+    background-color: rgb(74, 230, 139);
+    font-size: 18px;
+    color:white;
+    
+  }
+
+  .crystal-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  #totalScore {
+    height: 50px;
+    width: 300px;
+    background-color:#DDA0DD;
+    font-size: 18px;
+    color: white;
+    
+  }
+
+  #scoreBox {
+    height: 100px;
+    width: 300px;
+    background-color:#DDA0DD;
+    font-size: 18px;
+    color: white;
+    
+  }
+
+    #totalScoreDiv {
+      height: 100px;
+      width: 300px;
+      background-color:#DDA0DD;
+      font-size: 18px;
+      color: white;
+
+    }
+  

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CrystalsCollector Game</title>
+
+
+
+  <!--linking the outside CSS files-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+
+</head>
+
+
+<body>
+
+
+
+  <!--labeling the divs-->
+
+  <!--orange div/box-->
+  <div id="orange">
+    <h1>CrystalsCollector!</h1>
+  </div>
+  <br>
+  <br>
+
+  <!--tan div/box-->
+  <div id="tan">
+    <p>
+      You will be given a random number at the start of the game.
+      <br>
+      <br>
+      There are four crystals below. By clicking on a crystal you will
+      add a specific amount of points to your total score.
+      <br>
+      <br>
+      You win the game by matching your total score to random number, you lose
+      the game if your total score goes above the random number.
+      <br>
+      <br>
+      The value of each crystal is hidden from you until you click on it.
+      <br>
+      <br>
+      Each time when the game starts, the game will change the values of each crystal.
+    </p>
+
+  </div>
+  <br>
+  <br>
+
+  <!--green div box-->
+
+  <div class="row">
+    <div class="column" id="green">
+    </div>
+    <br>
+    <br>
+    <div class="column" id="aqua">
+<h2>Won:
+  Loss:
+</h2>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <!--Div boxes to hold the jewel images-->
+  <div class="row">
+    <div class="column">
+      <div class="crystals">
+        <img id="blue" class="crystal-image" src="assets/images/blueJewel.jpg" alt="crystals">
+        <img id="pink" class="crystal-image" src="assets/images/pinkJewel.jpg" alt="crystals">
+        <img id="purple" class="crystal-image" src="assets/images/purpleJewel.jpg" alt="crystals">
+        <img id="greenJ" class="crystal-image" src="assets/images/greenJewel.jpg" alt="crystals">
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div id="totalScoreDiv">
+    <h1 class="text-center">Your total score is:<span id="totalScore">0</span></h1>
+
+  </div>
+
+  <br>
+
+
+  <div id="resultBox">
+
+  </div>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
